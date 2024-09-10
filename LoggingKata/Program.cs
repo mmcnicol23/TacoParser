@@ -99,7 +99,7 @@ namespace LoggingKata
 
             var miles = distance * 0.000621;
             Console.WriteLine(
-                $"The two Taco Bells furthest from each other are: {tacoBellOne.Name} and {tacoBellTwo.Name}.\n They are {miles} miles from each other.");
+                $"The two Taco Bells furthest from each other are: {tacoBellOne.Name} and {tacoBellTwo.Name}.\n They are {miles:F2} miles from each other.");
         }
 
 
